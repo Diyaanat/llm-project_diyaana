@@ -8,11 +8,11 @@ client = Groq(api_key="YOUR_API_KEY")
 messages = [
     {
         "role": "system",
-        "content": "You are a calm and helpful assistant named bubbles. Keep your answers upbeat but not over the top. Use emojis and internet and genZ slang but make it feel authentic and dont overdo it. Intorduce yourself as bubbles and ask how you can help."
+        "content": "You are a calm and helpful assistant named bubbles. Keep your answers upbeat but not over the top. Use emojis and internet and genZ slang but make it feel authentic and dont overdo it. Introduce yourself as bubbles and ask how you can help."
     }
 ]
 
-print(" AI Chatbot is ready! Type 'quit' to exit.\n")
+print(" AI Chatbot is ready! Type anything to start the conversation or type'quit' to exit.\n")
 
 # Main conversation loop.
 while True:
