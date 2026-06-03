@@ -37,6 +37,7 @@ Follow these exact steps to set up and run the project locally on your machine:
 ```
 4. **Set Up and Activate a Virtual Environment:**
    Create an isolated environment for this project and activate it by running the commands for your operating system:
+
    -MAC/Linux
 ```bash
    python3 -m venv venv
@@ -53,9 +54,13 @@ Follow these exact steps to set up and run the project locally on your machine:
    pip install groq
 ```
 6. Configure the API Key:
+
    -Open the chat.py file in a text editor (like VS Code).
+
    -Locate the line: api_key="YOUR_API_KEY"
+
    -Replace "YOUR_API_KEY" with your actual, private Groq API key string and save the file.
+   
 
 7. Run the Chatbot:
    Execute the script to start the interactive multi-turn chatbot session:
