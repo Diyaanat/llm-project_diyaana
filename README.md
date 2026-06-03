@@ -22,7 +22,43 @@ The goal of this project was to build a functional, multi-turn AI question-answe
 - A valid Groq API Key.
 
 #### Setup Instructions
-1. Clone this repository or download the source code.
-2. Open your terminal and navigate to the project directory:
-   ```cmd
-   cd llm-project
+Follow these exact steps to set up and run the project locally on your machine:
+
+1. **Clone or Download the Repository:**
+   Clone this repository using Git or download the source code zip file and extract it to your computer.
+
+2. **Open Your Terminal:**
+   Open your command line interface (Terminal on Mac/Linux or PowerShell / Command Prompt on Windows).
+
+3. **Navigate to the Project Directory:**
+   Change your directory to the specific repository folder where the files live by running:
+```bash
+   cd llm-project_diyaana
+```
+4. **Set Up and Activate a Virtual Environment:**
+   Create an isolated environment for this project and activate it by running the commands for your operating system:
+   -MAC/Linux
+```bash
+   python3 -m venv venv
+   source venv/bin/activate
+```
+   -Windows
+```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+```
+5. **Install Required Packages:**
+   Install the necessary Groq dependency using Python's package manager:
+```bash
+   pip install groq
+```
+6. Configure the API Key:
+   -Open the chat.py file in a text editor (like VS Code).
+   -Locate the line: api_key="YOUR_API_KEY"
+   -Replace "YOUR_API_KEY" with your actual, private Groq API key string and save the file.
+
+7. Run the Chatbot:
+   Execute the script to start the interactive multi-turn chatbot session:
+```bash
+   python chat.py
+```
