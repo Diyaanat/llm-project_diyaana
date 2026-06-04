@@ -131,6 +131,7 @@ The goal of this task was to build a local Retrieval-Augmented Generation (RAG) 
    python rag.py
 ```
    **Sample questions to ask:**
+   
       -What is money back policy?
 
       -How do you choose the right type of insurance?
