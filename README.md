@@ -31,7 +31,7 @@ Follow these exact steps to set up and run the project locally on your machine:
    Open your command line interface (Terminal on Mac/Linux or PowerShell / Command Prompt on Windows).
 
 3. **Navigate to the Project Directory:**
-   Change your directory to the specific repository folder where the files live by running:
+   Change your directory to the specific repository folder where the files live by running.
 
 4. **Set Up and Activate a Virtual Environment:**
    Create an isolated environment for this project and activate it by running the commands for your operating system:
