@@ -32,9 +32,7 @@ Follow these exact steps to set up and run the project locally on your machine:
 
 3. **Navigate to the Project Directory:**
    Change your directory to the specific repository folder where the files live by running:
-```bash
-   cd llm-project_diyaana
-```
+
 4. **Set Up and Activate a Virtual Environment:**
    Create an isolated environment for this project and activate it by running the commands for your operating system:
 
@@ -131,7 +129,7 @@ The goal of this task was to build a local Retrieval-Augmented Generation (RAG) 
    python rag.py
 ```
    **Sample questions to ask:**
-   
+
       -What is money back policy?
 
       -How do you choose the right type of insurance?
