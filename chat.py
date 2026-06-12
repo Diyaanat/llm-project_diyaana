@@ -38,7 +38,6 @@ while True:
             temperature=0.6,      
             max_tokens=200,        
         )
-
         # Extract and print response
         ai_response = completion.choices[0].message.content
         print(f"AI: {ai_response}\n")

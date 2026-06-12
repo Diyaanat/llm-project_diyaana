@@ -134,4 +134,4 @@ The goal of this task was to build a local Retrieval-Augmented Generation (RAG) 
 
       -How do you choose the right type of insurance?
 
-      -What are the challenges with cashless facility?
+      -What are the challenges with cashless facility ?
